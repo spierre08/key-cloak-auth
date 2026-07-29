@@ -10,3 +10,8 @@ services:
       KC_BOOTSTRAP_ADMIN_PASSWORD: admin
     command:
       - start-dev
+    volumes:
+      - keycloak_data:/opt/keycloak/data
+
+volumes:
+  keycloak_data:

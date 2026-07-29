@@ -1,4 +1,3 @@
-// controllers/auth.controller.js
 import jwt from "jsonwebtoken";
 import { UserModel } from "../models/User.js";
 import { KeyCloakConfig } from "../config/keycloak.config.js";
