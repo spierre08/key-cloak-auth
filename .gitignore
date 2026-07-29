@@ -1,4 +1,7 @@
-/node_modules
+node_modules
+# Keep environment variables out of version control
+.env
+
 
 # Logs
 logs
@@ -8,5 +11,3 @@ pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
-
-.env
